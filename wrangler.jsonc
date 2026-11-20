@@ -1,8 +1,10 @@
 {
-  "name": "discordping",
-  "main": "worker.js",
-  "compatibility_date": "2026-11-20",
+  // ...
   "kv_namespaces": [
-    { "binding": "STATE", "id": "DEINE_KV_NAMESPACE_ID" }
-  ]
+    {
+      "binding": "STATE",
+      "id": "fadc2ac312b64931849a9ac008d8bdfa"
+    }
+  ],
+  // ...
 }
