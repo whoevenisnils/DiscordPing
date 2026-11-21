@@ -1,15 +1,15 @@
-const STREAMER_LOGIN = "dietotalechte";
+const STREAMER_LOGIN = "hier_twitch_name_eintragen";
 
 async function checkStream(env) {
   // 1. Twitch Token holen
   const tokenRes = await fetch(
     `https://id.twitch.tv/oauth2/token?client_id=${env.TWITCH_CLIENT_ID}&client_secret=${env.TWITCH_CLIENT_SECRET}&grant_type=client_credentials`,
     { method: "POST" }
- if (!tokenRes.ok) {
+  );
+  if (!tokenRes.ok) {
     const errText = await tokenRes.text();
     throw new Error(`Twitch Token Error ${tokenRes.status}: ${errText} (ID-Länge: ${env.TWITCH_CLIENT_ID?.length}, Secret-Länge: ${env.TWITCH_CLIENT_SECRET?.length})`);
-  } );
-  if (!tokenRes.ok) throw new Error(`Twitch Token Error: ${tokenRes.status}`);
+  }
   const { access_token } = await tokenRes.json();
 
   // 2. Stream-Status abfragen
