@@ -1,4 +1,4 @@
-const STREAMER_LOGIN = "hier_twitch_name_eintragen";
+const STREAMER_LOGIN = "dietotalechte";
 
 async function checkStream(env) {
   // 1. Twitch Token holen
