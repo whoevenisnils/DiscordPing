@@ -8,13 +8,3 @@
   ],
   // ...
 }
-{
-  // ...
-  "vars": {
-    "DISCORD_ROLE_ID": "1132037477226512425",
-    "DISCORD_WEBHOOK_URL": "https://discord.com/api/webhooks/1571266583219675237/aF4ANjlP2Q7RuP4vnE9Kz46lzjQxMikALIAMgACtEUzrbmE2pkmeCbQRm_tEAcRQ1-_E",
-    "TWITCH_CLIENT_ID": "v608kha0sce5hm4reogyq2q9694vm1",
-    "TWITCH_CLIENT_SECRET": "szx37u5wh9ujs1wjt9e3182tshffd0"
-  },
-  // ...
-}
