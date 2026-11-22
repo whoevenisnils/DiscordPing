@@ -1,11 +1,1 @@
-{
-  "name": "discordping",
-  "main": "worker.js",
-  "compatibility_date": "2026-11-20",
-  "kv_namespaces": [
-    {
-      "binding": "STATE",
-      "id": "fadc2ac312b64931849a9ac008d8bdfa"
-    }
-  ]
-}
+{ "name": "discordping", "main": "worker.js", "compatibility_date": "2026-11-20", "triggers": { "crons": ["*/1 * * * *"] }, "kv_namespaces": [{ "binding": "STATE", "id": "fadc2ac312b64931849a9ac008d8bdfa" }] }
